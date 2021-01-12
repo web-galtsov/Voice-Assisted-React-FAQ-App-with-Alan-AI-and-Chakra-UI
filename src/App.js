@@ -22,6 +22,7 @@ export const App = () => {
                             delay: 0,
                             smooth: 'easeInOutQuart',
                         });
+                        // noinspection JSUnresolvedVariable
                         setIndex(commandData.faqId - 1);
                         setCurrentFaqId(commandData.faqId);
                     } else if (commandData.command === 'toggleColorMode') {
